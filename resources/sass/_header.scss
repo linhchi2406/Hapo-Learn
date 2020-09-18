@@ -1,0 +1,92 @@
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+  }
+  
+  .navbar-toggler.collapsed .close-icon {
+    display: none;
+  }
+  
+  .menu-header {
+    margin-bottom: 50px;
+  
+    li {
+      padding-left: 10px;
+      margin-top: 12px;
+    }
+  }
+  
+  .menu-header .nav-link{
+    text-decoration: none;
+    font: normal bold 15px/19px 'Open-sans';
+    text-transform: uppercase;
+    color: $text_card_color !important;
+    padding: 7px 15px 8px 20px;
+  
+    &:hover {
+      color: $color !important;
+      background-color: $bg_color;
+      border-radius: 17px;
+    }
+  }
+  
+  p {
+    font-size: 45px;
+    color: $text_color;
+  }
+  
+  .header-banner {
+    margin-top: 15px;
+    background: linear-gradient(180deg, #FFFBFB 87.5%, #E7E9EE 100%);
+    height: 816px;
+  }
+  
+  .header-content {
+    background-image: url("../../storage/app/public/image/Hapo_Learn_banner.png");
+    background-size: cover;
+    height: 655px;
+  
+    .content {
+      padding: 200px 0 0 5%;
+  
+    .slogan-up {
+      margin: 0 0 0 59px;
+      @extend p;
+      @include textStoke(UTM BryantLG, 1px, $text_color);
+    }
+  }
+  }
+  
+  .header-content .content .slogan-down {
+    @extend p;
+    margin: 0 0 0 60px;
+    font-weight: bold;
+    @include textStoke(UTM BryantLG_B, 1px, $text_color);
+  
+    img {
+      @include sizeImage(58px, 43px);
+    }
+  }
+  
+  .header-content .content{
+    pre {
+      margin: 20px 0 0 -50px;
+      @include font(UTM BryantLG, #505353, 20px);
+    }
+  
+    a {
+      padding: 9px 34px 12px 36px;
+      align-items: center;
+      box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+      font: normal bold 30px 'UTM BryantLG_B';
+      color: $color;
+      text-decoration: none;
+      @include textStoke (UTM BryantLG_B, 1px, $color);
+      @include button($bg_color, 70px, 377px, 35px);
+  
+      &:hover {
+        opacity: 0.7;
+        transition: 0.4s;
+      }
+    }
+  }
+  

@@ -1,0 +1,98 @@
+.feed-back {
+  height: 650px;
+}
+
+.feed-back-slogan {
+  .fb-slogan-up {
+    p {
+      color: $text_color;
+      border-bottom: 5px solid $bg_color;
+      border-radius: 3px;
+      -webkit-text-stroke: 1px $text_color;
+      font: bold 75px 'UTM BryantLG_B';
+    }
+  }
+
+  .fb-slogan-down {
+    p {
+      color: $text_card_color;
+      -webkit-text-stroke: 0.3px $text_card_color;
+      font: 25px 'UTM BryantLG';
+    }
+  }
+}
+
+.fb-user-content {
+  padding: 1.5em 1em;
+  border: 0.5px solid #E2E2E2;
+  box-shadow: 1px 1px 5px 0.5px #969694;
+  border-radius: 10px;
+
+  p {
+    border-left: 5px solid #D9DADC;
+    font: 16px 'UTM BryantLG';
+  }
+}
+
+.fb-user-content {
+  &:after, &:before {
+    content: '';
+    border: solid transparent;
+    position: absolute;
+  }
+
+  &:after {
+    border-top-color: $color;
+    border-width: 10px;
+    margin: 25px 0 0 22px;
+  }
+
+  &:before {
+    border-top-color: #E2E2E2;
+    border-width: 12px;
+    margin: 98px 0 0 20px;
+  }
+}
+
+.user-comment {
+  b {
+    font: normal bold 20px 'UTM BryantLG_B';
+    color: $text_color;
+    -webkit-text-stroke: 0.3px $text_color;
+  }
+
+  p {
+    font: normal bold 16px 'UTM BryantLG_B';
+    color: $text_card_color;
+  }
+
+  .checked {
+    color: #F2C54F;
+  }
+}
+
+.control-next {
+  font-size: 20px;
+  padding: 0 5px;
+  margin-top: -195px;
+  color: #969494;
+
+  i {
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    border: 0.5px solid #C4C4C4;
+    cursor: pointer;
+    @include sizeImage(30px, 30px);
+  }
+}
+
+.next-left {
+  background-color: $color;
+  margin-left: -5px;
+}
+
+.next-right {
+  margin-right: -12px;
+  background-color: $color;
+}

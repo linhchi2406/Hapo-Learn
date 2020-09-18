@@ -1,0 +1,60 @@
+.course-body {
+  .card-title {
+    font: normal bold 25px/31px 'UTM BryantLG';
+    color: $text_card_color;
+    -webkit-text-stroke: 0.5px $text_card_color;
+  }
+
+  .card-text {
+    font: normal 18px/25px 'UTM BryantLG';
+    color: $text_card_color;
+    text-align: start;
+  }
+}
+
+.list-course {
+  a {
+    background: $bg_color;
+    box-shadow: inset 0px 2px 2px #6F8710;
+    border-radius: 22px;
+    font: normal bold 18px/22px 'UTM BryantLG';
+    color: $color;
+    margin-left: 70%;
+  }
+
+  .footer-title {
+    font: normal bold 25px/31px 'UTM BryantLG';
+    color: $text_card_color;
+  }
+
+  .footer-number {
+    font: normal bold 30px/37px 'UTM BryantLG';
+    color: $bg_color;
+  }
+}
+
+.list-course .courses {
+  border: 1px solid #F1F1F1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.listcourse-search {
+  .filter {
+    font: normal bold 16px/22px 'Open-sans';
+    color: $text_card_color;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    @include sizeImage(100px, 40px);
+  }
+}
+
+.btn-search {
+  font: normal bold 15px/20px 'Open_sans';
+  color: $color;
+  background: $bg_color;
+  border: 1px solid $bg_color;
+  border-radius: 5px;
+}

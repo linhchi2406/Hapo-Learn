@@ -1,0 +1,20 @@
+.start-learning {
+  background-image: url("../../storage/app/public/image/banner_content.png");
+  background-position: center;
+  background-size: cover;
+  }
+  
+.start-learning p {
+  font: bolder 60px 'UTM BryantLG';
+  color: $color;
+  -webkit-text-stroke: 1px $color;
+}
+  
+.btn-start-learning a {
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  font: bolder 30px 'UTM BryantLG_B';
+  color: $bg_color;
+  text-decoration: none;
+  @include button($color, 70px, 377px, 35px);
+}
+  

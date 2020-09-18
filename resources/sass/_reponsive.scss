@@ -1,0 +1,377 @@
+@media only screen and (max-width: 768px) {
+  .img-header {
+    img {
+      @include sizeImage(300px, 61.74px);
+    }
+  }
+
+  .menu-header {
+    li {
+      padding: 0;
+    }
+  }
+
+  .header-banner {
+    height: 472px;
+
+    .header-content 
+    {
+      height: 350px;
+    }
+  }
+
+  .header-banner {
+    .content {
+      padding: 70px 0 0 0;
+      margin-left: -40px;
+
+      p {
+        font-size: 28px !important;
+      }
+    }
+  }
+
+  .header-banner .content {   
+    pre {
+      margin: -5px 0 0 -45px;
+      @include font(UTM BryantLG, #505353, 16px);
+    }
+
+    a {
+      font-size: 16px;
+      margin-top: -5px;
+      @include button ($bg_color, 37.14px, 200px, 35px);
+    }
+  }
+
+  .course {
+    margin-top: -70px !important;
+  }
+
+  .card {
+    height: 320px !important;
+
+    .image {
+      height: 131.25px !important;
+    }
+  }
+
+  .card-body {
+    .card-title {
+      font-size: 17.5px;
+      margin-top: -15px;
+    }
+
+    .card-text {
+      margin-top: -10px;
+      padding-bottom: 5px;
+      font-size: 13px;
+    }
+
+    a {
+      margin-top: -150px;
+      font-size: 10px;
+      padding: 5px 20px 7px 20px;
+      @include button($bg_color, 24.45px, 116.42px, 35px);
+    }
+  }
+
+  .other-course {
+    margin: 40px 0 0 33%;
+    @include sizeImage (230px, 220px);
+
+    p {
+      font-size: 35px;
+    }
+  }
+
+  .all-of-course {
+    a {
+      font-size: 28px;
+    }
+  }
+
+  .why-hapolearn {
+    height: 420px;
+  }
+
+  .why-hapo-content {
+    margin-top: 0;
+
+    .menu {
+      margin-left: 0;
+
+      ul li {
+        font-size: 16px;
+        list-style-image: url("../../storage/app/public/image/li-reponsive.png");
+      }
+    }
+  }
+
+  .feed-back-slogan {
+    .fb-slogan-up {
+      p {
+        font-size: 40px;
+      }
+    }
+
+    .fb-slogan-down {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .start-learning {
+    margin-top: -100px;
+
+    .start-learn-slogan {
+      p {
+      font-size: 35px ;
+      }
+    }
+  }
+
+  .btn-start-learning {
+    a {
+      font-size: 20px;
+      @include button($color, 46.42px, 250px, 35px);
+    }
+  }
+
+  .statistic-slogan {
+    font-size: 35px !important;
+  }
+
+  .statistic {
+    .menu-content {
+      font-size: 30px !important;
+    }
+
+    .number {
+      font-size: 30px !important;
+    }
+  }
+
+  .footer-text span {
+    font-size: 14px !important;
+
+  }
+
+  .menu-footer {
+    .menu-content {
+      a {
+        font-size: 16px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .img-header {
+    img {
+      margin-left: 65%;
+      @include sizeImage(150px, 26.75px);
+    }
+  }
+
+  .menu-header {
+    margin-left: 32%;
+
+    a {
+      font: normal bold 16px/22px 'Open-sans' !important;
+      &:hover {
+        color: $bg_color !important;
+      }
+    }
+  }
+
+  .header-banner {
+    height: 510px;
+
+    .header-content 
+    {
+      height: 200px;
+
+      .content {
+        padding: 200px 0 0 12%;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .header-content {
+    p {
+      font-size: 22px !important;
+      padding-top: 0;
+    }
+
+    .slogan-down img {
+      @include sizeImage(27.16px, 25.16px);
+    }
+
+    pre {
+      margin: 0 0 0 -25px;
+      @include font(UTM BryantLG, #505353, 14px);
+    }
+  }
+
+  .header-content a {
+    font-size: 16px;
+    padding: 12px 52px 12.52px 52px;
+    @include textStoke(UTM BryantLG, 0.1px, $color);
+    @include button ($bg_color, 37.14px, 200px, 35px);
+  }
+
+  .header-footer {
+    height: 310px;
+  }
+
+  .card {
+    width: 280px;
+    height: 360px !important;
+    margin-bottom: 20px;
+    justify-content: center;
+
+    .image {
+      height: 163px !important;
+    }
+  }
+
+  .frontend-course {
+    margin-top: 30px !important;
+  }
+
+  .card-body {
+    a {
+      font-size: 18px;
+      padding: 9px 37px 11px 36px;
+      @include button ($bg_color, 200px, 42px, 35px);
+    }
+  }
+
+  .other-course {
+    font-size: 38px;
+    margin: 20px 0 0 80px;
+    @include sizeImage (243px, 49px)
+  }
+
+  .all-of-course a {
+    font-size: 24px;
+
+    img {
+      @include sizeImage(33px, 18px);
+    }
+  }
+
+  .why-hapolearn {
+    height: 569px;
+
+    .image img {
+      margin: -32% 0 -10px;
+    }
+
+    .why-header-slogan {
+     margin: -80px 0 0 280px;
+
+      p {
+        font-size: 35px;
+      }
+    }
+  }
+
+  .why-hapo-content {
+    .menu {
+      margin: 20px 0 0 20px;
+
+      ul li {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .feed-back-slogan {
+    .fb-slogan-up {
+      p {
+        font-size: 35px;
+      }
+    }
+
+    .fb-slogan-down {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .fb-user-content {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .user-comment {
+    b {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .fb-user-content {
+    &:before {
+      margin-top: 128px !important;
+    }
+  }
+
+  .start-learning {
+    margin-top: -100px;
+
+    .start-learn-slogan {
+      p {
+      font-size: 23px;
+    }
+
+    .btn-start-learning {
+      a {
+        font-size: 18px;
+        @include button($color, 37px, 200px, 35px);
+      }
+    }
+  }
+}
+
+  .statistic-slogan {
+    font-size: 30px !important;
+  }
+
+  .statistic {
+    .menu-content {
+      font-size: 25px !important;
+    }
+
+    .number {
+      font-size: 25px !important;
+    }
+  }
+
+  .footer-text {
+    margin-top: -50px !important;
+    img {
+      @include sizeImage(150px, 31px);
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+
+  .footer-image {
+    margin-top: -80px;
+    margin-left: -20px;
+    img {
+      @include sizeImage(30px, 30px);
+    }
+  }
+}

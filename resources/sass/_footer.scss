@@ -1,0 +1,111 @@
+.hapolearn-footer {
+  background-color: $text_card_color;
+}
+
+.hapolearn-footer .menu a:hover {
+  -webkit-text-stroke-width: 1px;
+  text-decoration: underline;
+}
+
+.footer-text {
+  margin-top: -20px;
+
+  span {
+    font: 18px 'UTM BryantLG';
+    color: $color;
+    margin-top: -35px;
+  }
+}
+
+.menu-footer {
+  .menu-content {
+    ul {
+      list-style: none;
+
+      a {
+        font: bold 20px 'UTM BryantLG';
+        color: $color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.footer-image ul {
+  list-style: none;
+}
+
+.footer-end {
+  position: absolute;
+  background-color: #454545;
+
+  p {
+    text-align: center;
+    font: 16px/18px 'UTM BryantLG';
+    color: $color;
+  }
+}
+
+.hapolearn-messenger {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+
+  .hapolearn-messenger-chatbox {
+    background-color: $color;
+    border-radius: 23px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    display: none;
+  }
+}
+
+.hapolearn-messenger-chatbox-text {
+  img {
+    height: 35px;
+  }
+
+  p {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #F1F0F0;
+    border-radius: 15px;
+    color: #505353;
+    -webkit-text-stroke: 0.3px;
+    font: 12px/17px 'Open Sans';
+  }
+
+  i {
+    color: #C4C4C4;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: -10px;
+  }
+}
+
+.hapolearn-messenger-chatbox-login {
+  p {
+    color: #B3B3B3;
+    text-align: center;
+    font: 12px/16px 'Open Sans';
+  }
+}
+
+.hapolearn-messenger-chatbox-name {
+  font: 12px/16px 'Open Sans';
+  color: #7F7F7F;
+}
+
+.hapolearn-messenger-icon {
+  cursor: pointer;
+  z-index: 2;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+.hapolearn-messenger-btnlogin {
+  background: #3184F7;
+  border-radius: 20px;
+  font: 12px/16px 'Open Sans';
+  color: $color;
+}

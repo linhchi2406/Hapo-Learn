@@ -1,0 +1,25 @@
+.statistic {
+  .statistic-slogan {
+    letter-spacing: -0.02em;
+    color: $text_color;
+    -webkit-text-stroke: 0.5px $text_color;
+    font: bold 70px 'UTM BryantLG_B';
+    border-bottom: 4px solid $bg_color;
+    border-radius: 3px;    
+  }
+}
+
+.start-menu .menu {
+  .menu-content {
+    font: bold 50px 'UTM BryantLG_B';
+    letter-spacing: -0.05em;
+    color: $text_card_color;
+  }
+
+  .number {
+    font: bold 50px 'UTM BryantLG_B';
+    letter-spacing: -0.05em;
+    color: $bg_color;
+    -webkit-text-stroke: 0.4px $bg_color;
+  }
+}

@@ -1,0 +1,33 @@
+.pagination {
+    .btn-pagi {
+      border: 1px solid #B2D235;
+      color: #B2D235;
+      font-size: 30px;
+      padding: 0 18px;
+    }
+
+    a {
+      text-decoration: none;
+      border: 1px solid #B2D235;
+      color: #B2D235;
+      padding: 7px 18px;
+      border-radius: 3px;
+      margin-left: 10px;
+      font-size: 18px;
+      
+      &:hover {
+        background-color: #B2D235;
+        color: #FFFFFF;
+      }
+    }
+
+    .page-active {
+        text-decoration: none;
+        border: 1px solid $bg_color;
+        padding: 0px 10px;
+        border-radius: 3px;
+        margin-left: 10px;
+        background-color: $bg_color;
+        color: #FFFFFF;
+    }
+  }

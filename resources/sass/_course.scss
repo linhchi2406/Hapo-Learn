@@ -1,0 +1,96 @@
+.course {
+    margin-top: -120px;
+  }
+  
+.backend-course {
+  .card {
+    height: 470px;
+    margin-left: 3%;
+    border-radius: 10px 10px 0 0;
+  
+    .image {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0 0;
+      text-align: center;
+    }
+  }
+}
+  
+.frontend-course {
+  @extend .backend-course;
+  margin-top: -150px;
+  
+  .card {
+    height: 410px;
+  }
+}
+  
+.card-body {
+  .card-title {
+    font: normal normal 30px 'UTM BryabtLG';
+    color: $bg_color;
+    text-align: center;
+    -webkit-text-stroke: 0.5px $bg_color;
+  }
+  
+  .card-text {
+    font: normal normal 14px 'UTM BryantLG';
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: $text_card_color;
+    -webkit-text-stroke: 0.4px $text_card_color;
+  }
+}
+  
+.card-body {
+  a {
+    font: normal bold 18px/22px 'UTM BryantLG_B';
+    color: $color;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px $color;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 9px 37px 11px 36px;
+    @include button($bg_color, 42px, 200px, 35px);
+  }
+  
+  &:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+  }
+}
+
+.other-course {
+  margin: 70px 0 15px 30%;
+  letter-spacing: -0.02em;
+  color: $text_color;
+  -webkit-text-stroke: 0.5px $text_color;
+  @include sizeImage (420px, 250px);
+}
+  
+.other-course p {
+  font: normal bold 65px 'UTM BryantLG_B';
+  text-align: center;
+  border-radius: 3px;
+  border-bottom: 5px solid $bg_color;
+  -webkit-text-stroke: 0.5px $bg_color;
+}
+  
+.all-of-course {
+  text-align: center;
+  margin-bottom: 100px;
+  cursor: pointer;
+  
+  a {
+    text-decoration: none;
+    color: $bg_color;
+    font: normal bold 45px 'UTM BryantLG_B';
+    letter-spacing: -0.02em;
+    -webkit-text-stroke: 0.5px $bg_color;
+  }
+  
+  &:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+  }
+}
+  

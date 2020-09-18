@@ -1,0 +1,67 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$bg_color:  #B2D235;
+$color: white;
+$text_color: #11114E;
+$text_card_color: #505353;
+
+@font-face {
+  font-family: Open_sans;
+  src: url('../Font/open-sans/OpenSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: UTM BryantLG;
+  src: url('../Font/utm-bryantlg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: UTM BryantLG_B;
+  src: url('../Font/utm-bryantlg-b.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+} 
+
+@mixin font ($font_family, $color, $font_size){
+  font-family: $font_family;
+  color: $color;
+  font-size: $font_size;
+}
+
+@mixin button($background, $height, $width, $border_radius) {
+    background-color: $background;
+    height: $height;
+    width: $width;
+    border-radius: $border_radius;
+}
+
+@mixin textStoke ($font_family, $size, $color){
+  font-family: $font_family;
+  -webkit-text-stroke: $size $color;
+}
+
+@mixin sizeImage ($width, $height){
+  width: $width;
+  height: $height;
+}

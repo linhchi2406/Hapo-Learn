@@ -1,0 +1,83 @@
+.modal-content-login,
+.modal-content-register {
+  border: $bg_color 1px solid;
+
+  a {
+    font: normal 25px/31px 'UTM_BryantLG';
+    color: $bg_color;
+  }
+}
+
+.focus-on {
+  background-color: $bg_color;
+
+  a {
+    font: normal 25px/31px 'UTM_BryantLG';
+    color: $bg_color;
+  }
+}
+
+.btn-login {
+  background-color: $bg_color;
+  border-radius: 22px;
+  box-shadow: inset 0px 1.5px 2px #6F8710;
+  font: normal bold 18px/22px 'UTM_BryantLG';
+  color: $bg_color;
+}
+
+.btn-close-login {
+  background-color: $bg_color;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  -webkit-text-stroke-width: 2px;
+  top: -8px;
+  right: -16px;
+
+  span {
+    color: #FFFFFF;
+    font-size: 30px;
+  }
+}
+
+.md-form {
+  font: bold 20px/25px 'UTM_BryantLG';
+  color: $text_card_color;
+}
+
+.form-input {
+  font-size: 25px;
+}
+
+.forgot-password {
+  text-decoration-line: underline;
+  font: normal bold 18px/22px 'UTM_BryantLG';
+  color: $bg_color;
+}
+
+.modal-footer {
+  span {
+    top: -20px;
+    font: normal bold 20px/25px 'UTM BryantLG';
+    color: $text_card_color;
+  }
+
+  .login-google {
+    background-color: #DC4E41;
+  }
+  
+  .login-facebook {
+    background-color: #3B5999;
+  }
+
+  .login-google,
+  .login-facebook {
+    color: #FFFFFF;
+    font: normal 20px/25px 'UTM BryantLG';
+    color: #FFFFFF;
+
+    &:hover {
+      color: #FFFFFF;
+    }
+  }
+}
