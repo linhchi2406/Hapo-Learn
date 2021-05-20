@@ -37208,8 +37208,8 @@ for (var i = 0; i < li_elements.length; i++) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\Hapo_Learn\laravel-7-scaffold\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Hapo_Learn\laravel-7-scaffold\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Hapo-Learn\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Hapo-Learn\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

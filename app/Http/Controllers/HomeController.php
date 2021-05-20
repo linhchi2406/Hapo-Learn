@@ -49,7 +49,7 @@ class HomeController extends Controller
     /**
      * Edit profile for user login.
      */
-    public function updateProfile(UsersRequestUpdate $request)
+    public function updateProfile(RegisterUserRequest  $request)
     {
         $user = User::findOrFail(Auth::user()->id);
         $data = $request->all();
