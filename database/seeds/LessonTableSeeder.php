@@ -14,3 +14,4 @@ class LessonTableSeeder extends Seeder
         factory(App\course\Lesson::class, 20)->create();
     }
 }
+   
